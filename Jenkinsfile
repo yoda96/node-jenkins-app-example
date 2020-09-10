@@ -9,8 +9,7 @@ pipeline {
         }
         stage('Build stage') {
             steps {
-                echo 'Hello, JDK'
-                sh 'npm init'
+
                 sh 'npm install --save express'
                 sh 'npm install'
                 sh 'npm test'
