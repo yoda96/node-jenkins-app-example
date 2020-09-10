@@ -13,7 +13,7 @@ pipeline {
                 echo 'Hello, JDK'
                 sh 'npm init'
                 sh 'npm install --save express'
-                sh ''
+                
             }
         }
     }
