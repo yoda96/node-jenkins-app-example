@@ -13,6 +13,7 @@ pipeline {
                 sh 'npm install --save express'
                 sh 'npm install'
                 sh 'npm test'
+                sh 'node app.js'
             }
         }
     }
